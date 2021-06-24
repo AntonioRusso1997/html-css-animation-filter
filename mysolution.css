@@ -107,4 +107,93 @@
 
 /* BUTTONS */
 
+.ex-12-button:hover .ex-12-top-white {
+    animation: white-top-move 2s linear;
+}
+
+@keyframes white-top-move {
+    0% {
+        left: 10%;
+    }
+    50% {
+        left: calc(100% - 60px);
+    }
+    100% {
+        left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: white-bottom-move 2s linear;
+}
+
+@keyframes white-bottom-move {
+    0% {
+        right: 20%;
+    }
+    50% {
+        right: calc(100% - 60px);
+    }
+    100% {
+        right: 20%;
+    }
+}
+
+.ex-13-button:hover .ex-13-top-white {
+    animation: white-top-totalmove 2s linear;
+}
+
+@keyframes white-top-totalmove {
+    0% {
+        left: 10%;
+    }
+    30% {
+        left: calc(100% - 30px);
+        top: -15px;
+    }
+    50% {
+        left: calc(100% - 30px);
+        top: 100%;
+    }
+    75% {
+        left: 0;
+        top: 100%;
+    }
+    90% {
+        left: -20px;
+        top: -15px;
+    }
+    100% {
+        left: 10%;
+    }
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: white-bottom-totalmove 2s linear;
+}
+
+@keyframes white-bottom-totalmove {
+    0% {
+        right: 20%;
+    }
+    30% {
+        right: calc(100% - 30px);
+        bottom: -15px;
+    }
+    50% {
+        right: calc(100% - 30px);
+        bottom: 100%;
+    }
+    75% {
+        right: 0;
+        bottom: 100%;
+    }
+    90% {
+        right: -20px;
+        bottom: -15px;
+    }
+    100% {
+        right: 20%;
+    }
+}
 /* / BUTTONS */
