@@ -1,3 +1,4 @@
+/* SQUARE */
 .ex-1-square {
     transition: 3s;
 }
@@ -41,7 +42,9 @@
 .ex-5-square:active {
     transform: scale(0.5);
 }
+/* / SQUARE */
 
+/* IMAGES */
 .ex-6-img:hover {
     filter: grayscale();
 }
@@ -72,4 +75,36 @@
     border-radius: 20px;
     transform: scale(1.5);
 }
+/* /IMAGES */
 
+/* ICONS */
+.ex-10-icon {
+    animation: rotation 2s linear infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(360deg);
+    }
+}
+
+.ex-11-icon:hover {
+    animation: slow-rotation 2s linear;
+}
+
+@keyframes slow-rotation {
+    0% {
+        transform: rotate(0);
+    }
+    90% {
+        transform: rotate(320deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+/* /ICONS */
+
+/* BUTTONS */
+
+/* / BUTTONS */
